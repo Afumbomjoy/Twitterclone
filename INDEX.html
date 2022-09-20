@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Twitter Clone</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="STYLE.css" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    </head>
+
+    <body >
+    <!--sidebar starts-->
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <span class="material-icons widgets__homeIcon"> home </span>
+            <h2>Home</h2>
+        </div>
+
+        <div class="sidebarOption active">
+            <span class="material-icons widgets__searchIcon"> search </span>
+            <h2>Explore</h2>
+        </div>
+
+        <div class="sidebarOption active">
+            <span class="material-icons">
+                notifications_none
+                </span>
+            <h2>Notification</h2>
+        </div>
+
+        <div class="sidebarOption active">
+            <span class="material-icons">
+                email
+                </span>
+            <h2>Messages</h2>
+        </div>
+
+        <div class="sidebarOption active">
+            <span class="material-icons widgets__bookmarkIcon"> bookmark </span>
+            <h2>Bookmarks</h2>
+        </div>
+
+        <div class="sidebarOption active">
+            <span class="material-icons">
+                list
+                </span>
+            <h2>Lists</h2>
+        </div>
+
+        <div class="sidebarOption active">
+            <span class="material-icons">
+                person
+                </span>
+            <h2>Profile</h2>
+        </div>
+
+        <div class="sidebarOption active">
+            <span class="material-icons widgets__moreIcon"> more </span>
+            <h2>More</h2>
+        </div>
+        <botton class="sidebar__tweet">Tweet</botton>
+
+    </div>
+     <!--sidebar ends-->
+
+     <!--feed starts-->
+     <div class="feed">
+        <div class="feed__header">
+            <h2>Home</h2>
+        </div>
+
+        <!--tweetbox starts-->
+        <div class="tweetBox">
+            <form>
+                <div class="tweetBox__input">
+                    <img src="afu.jpg"
+                     alt="Girl" />
+
+                     <input type="text" placeholder="what's happening?" />
+                </div>
+                 <button class="tweetbox__tweetBotton">Tweet</button>
+            </form>
+        </div>
+        <!--tweetbox ends-->
+
+        <!--post starts-->
+        <div class="post">
+            <div class="post__avatar">
+                <img src="afu.jpg" height="40px" 
+                alt="Girl" />  
+            </div>
+
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Afumbom Joy
+                            <span class="post__headerSpecial">
+                                <span class="material-icons post__badge"> verified</span>@joy
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p> Photographer and film maker based in Cameroon</p>
+                    </div>
+                </div>
+
+                <img src="afu.jpg"
+                alt="Girl" />
+
+                <div class="post__footer">
+                    <span class="material-icons"> comments</span>
+                    <span class="material-icons"> repeat</span>
+                    <span class="material-icons"> favorite_border</span>
+                    <span class="material-icons"> publish</span>
+                </div>
+            </div>
+        </div>
+        <!--post ends-->
+        
+        <!--fist comment starts-->
+        <div class="comment">
+            <div class="comment__avatar">
+                <img src="girl.jpg" height="40px" width="40px"
+                alt="Girl" />    
+            </div>
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Kosa Milwintia
+                            <span class="post__headerSpecial">
+                                <span class="material-icons post__badge"> verified</span>@Million
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p> 3 hours ago</p>
+                    </div>
+                </div>
+                <p>Hi its so nice to meet you. please how can i contact you? i would like to have<br>
+                     you take care of my photo shoot if you don't mind.<br>
+                      My weddind is comming up real soon</p>
+                      
+            </div>
+        </div>
+        <!--fist comment ends-->
+        <!--second comment starts-->
+        <div class="commenttwo">
+            <div class="commenttwo__avatar">
+                <img src="mandy.jpg" height="40px" width="40px"
+                alt="Girl" />    
+            </div>
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Mandy Bih
+                            <span class="post__headerSpecial">
+                                <span class="material-icons post__badge"> verified</span>@Nurse-titi
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p> 6 hours ago</p>
+                    </div>
+                </div>
+                <p> Thank you soo much for your services you did a great job<br>
+                am so happy i trusted you to handle my photoshoot and you sure did <br>
+            your job well. The results are evident</p>
+            </div>
+        </div>
+         <!--second comment ends-->
+
+        <!--second post starts-->
+        <div class="post">
+            <div class="post__avatar">
+                <img src="afu.jpg" height="40px" 
+                alt="Girl" />  
+            </div>
+
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Afumbom Joy
+                            <span class="post__headerSpecial">
+                                <span class="material-icons post__badge"> verified</span>@joy
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p> Here's a sample video to help you get started</p>
+                    </div>
+                </div>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/V7z7BAZdt2M" title="YouTube video player"
+                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                 allowfullscreen></iframe>
+
+                <div class="post__footer">
+                    <span class="material-icons"> comments</span>
+                    <span class="material-icons"> repeat</span>
+                    <span class="material-icons"> favorite_border</span>
+                    <span class="material-icons"> publish</span>
+                </div>
+            </div>
+        </div>
+         <!--second post ends-->
+
+         <!--third post starts-->
+         <div class="posttwo">
+            <div class="posttwo__avatar">
+                <img src="mandy.jpg" height="40px" width="40px"
+                alt="Girl" />    
+            </div>
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Elixir Digest
+                            <span class="post__headerSpecial">
+                                <span class="material-icons post__badge"> verified</span>@elixdigest
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p> 1 day ago </p>
+                    </div>
+                </div>
+                
+                <p> Yet Another Guide To build a JSON API with Phoenix 1.5 shared in<br> 
+                    the latest Elixir Digest<br> 
+                    <a href="https://elixdigest.net/digest/276"
+                    >https://elixdigest.net/digest/276</a><br>
+                    @_tamas_soos #myelixirstatus #elixirlang #phoenixframework</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5rg7MAFO5Ik" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            </div>
+        </div>
+         <!--third post ends-->
+        
+         <!--third post starts-->
+         <div class="posttwo">
+            <div class="posttwo__avatar">
+                <img src="a.jpg" height="40px" width="40px"
+                alt="Girl" />    
+            </div>
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Elixir Digest
+                            <span class="post__headerSpecial">
+                                <span class="material-icons post__badge"> verified</span>@elixdigest
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p> 1 day ago </p>
+                    </div>
+                </div>
+                
+                <p> yet Another Guide To build a JSON API with Phoenix 1.5 shared in<br> 
+                    the latest Elixir Digest<br> 
+                    <a href="https://elixdigest.net/digest/276"
+                    >https://elixdigest.net/digest/276</a><br>
+                    @_tamas_soos #myelixirstatus #elixirlang #phoenixframework</p>
+            
+            </div>
+        </div>
+         <!--third post ends-->
+
+         <!--third post starts-->
+         <div class="posttwo">
+            <div class="posttwo__avatar">
+                <img src="b.jpg" height="40px" width="40px"
+                alt="Girl" />    
+            </div>
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Chris Martin 
+                            <span class="post__headerSpecial">
+                                <span class="material-icons post__badge"> verified</span>@chrismartin
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p> 15 hours ago  </p>
+                    </div>
+                </div>
+                
+                <p> One of me favourite things about the "ergonomics" of haskell is<br> 
+                    being able to leave underscores in code that isn't finished yet,<br> 
+                    and the type checker still works and provides useful information<br>
+                about the incomplete code. ("holes" --<br>
+               <a href="https://typeclasses.com/typed-holes"
+                >https://typeclasses.com/typed-holes</a>
+                )
+        
+            </p>
+            
+            </div>
+        </div>
+         <!--third post ends-->
+
+         <!--third post starts-->
+         <div class="posttwo">
+            <div class="posttwo__avatar">
+                <img src="c.jpg" height="40px" width="40px"
+                alt="Girl" />    
+            </div>
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Elixir Digest
+                            <span class="post__headerSpecial">
+                                <span class="material-icons post__badge"> verified</span>@elixdigest
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p> 1 day ago </p>
+                    </div>
+                </div>
+                
+                <p> yet Another Guide To build a JSON API with Phoenix 1.5 shared in<br> 
+                    the latest Elixir Digest<br> 
+                    <a href="https://elixdigest.net/digest/276"
+                    >https://elixdigest.net/digest/276</a><br>
+                    @_tamas_soos #myelixirstatus #elixirlang #phoenixframework</p>
+            
+            </div>
+        </div>
+         <!--third post ends-->
+         
+     </div>
+     <!--feed ends-->
+
+     <!--widgets starts-->
+     <div class="widgets">
+        <div class="widgets__input">
+            <span class="material-icons widgets__searchIcon"> search </span>
+            <input type="text" placeholder="search Twitter" />
+        </div>
+
+        <div class="widgets__widgetContainer">
+            <div class="layout__right-sidebar-container">
+                <div class="layout__right-sidebar">
+                    <div class="trends-for-you">
+                        <div class="trends-for-you__block">
+                            <div class="trends-for-you__heading">
+                                Trends for you
+                            </div>
+                        </div>
+                        <div class="trends-for-you__blocks">
+                            <div class="trends-for-you__meta-information">
+                                Trending in Germany
+                            </div>
+                            <div class="trends-for-you__trend-name">
+                                #iphone12 
+                            </div>
+                            <div class="trends-for-you__meta-information">
+                                155k tweets 
+                            </div>
+
+                            <div class="trends-for-you">
+                                <div class="trends-for-you__block">
+                                    
+                                </div>
+                                <div class="trends-for-you__blocks">
+                                    <div class="trends-for-you__meta-information">
+                                        Trending in Africa
+                                    </div>
+                                    <div class="trends-for-you__trend-name">
+                                        Buga by Chris Daniel
+                                    </div>
+                                    <div class="trends-for-you__meta-information">
+                                        100k tweets 
+                                    </div>
+
+                                    <div class="trends-for-you">
+                                        <div class="trends-for-you__block">
+                                        </div>
+                                        <div class="trends-for-you__blocks">
+                                            <div class="trends-for-you__meta-information">
+                                                Trending in USA
+                                            </div>
+                                            <div class="trends-for-you__trend-name">
+                                                Rianna 
+                                            </div>
+                                            <div class="trends-for-you__meta-information">
+                                                150k tweets 
+                                            </div>
+                                            
+                                            <div class="trends-for-you">
+                                                <div class="trends-for-you__block">
+                                                </div>
+                                                <div class="trends-for-you__blocks">
+                                                    <div class="trends-for-you__meta-information">
+                                                        Trending in Ukrain
+                                                    </div>
+                                                    <div class="trends-for-you__trend-name">
+                                                        Civil war  
+                                                    </div>
+                                                    <div class="trends-for-you__meta-information">
+                                                        300k tweets 
+                                                    </div>                                
+                        </div>
+                    </div>
+
+                    <div class="who-to-follow">
+                        <div class="who-to-follow__block">
+                            <div class="who-to-follow__heading">
+                                Who to follow 
+                            </div>
+                        </div>
+                        <div class="who-to-follow__block">
+                            <img class="who-to-follow__author-logo" src="d.jpg"/>
+                            <div class="who-to-follow__content">
+                                <div class="who-to-follow__author-name">
+                                    Becki (& Chris)
+                                </div>
+                                <div class="who-to-follow__author-slug">
+                                    @beckyandchris 
+                                </div>
+                            </div>
+                            <div class="who-to-follow__button">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                    <div class="who-to-follow__block">
+                        <img class="who-to-follow__author-logo" src="e.jpg"/>
+                        <div class="who-to-follow__content">
+                            <div class="who-to-follow__author-name">
+                                Elixir Digest
+                            </div>
+                            <div class="who-to-follow__author-slug">
+                                @elixdigest
+                            </div>
+                        </div>
+                        <div class="who-to-follow__button">
+                            Follow
+                        </div>
+                    </div>
+                </div>
+                <div class="who-to-follow__block">
+                    <img class="who-to-follow__author-logo" src="f.jpg"/>
+                    <div class="who-to-follow__content">
+                        <div class="who-to-follow__author-name">
+                            Chris Martin
+                        </div>
+                        <div class="who-to-follow__author-slug">
+                            @chrismartin 
+                        </div>
+                    </div>
+                    <div class="who-to-follow__button">
+                        Follow
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--widgets ends-->
+    
+    </body>
+</html>
